@@ -5,7 +5,7 @@
 作成日:
 
 
-.. image:: 
+.. image:: AN-USB-BME280.JPG
     :width: 480px
 
 
@@ -13,7 +13,7 @@
 ■ 概要
 ------------------------------------------------------------------------
 
-大気中の　温度／湿度／気圧　を計測します。
+大気中の温度／湿度／気圧　を計測します。
 
 
 ■ 回路図
@@ -27,7 +27,9 @@
 ■ サンプルプログラム
 ------------------------------------------------------------------------
 
+    pip install PyMCP2221A
 
+    https://github.com/nonNoise/USB_ScienceKit/blob/master/BME280/example/BME280_test.py
 
 
 
@@ -39,5 +41,4 @@
 ::
     
     MIT License
-    Copyright (c) 2018 Yuta KItagami   
-    固有の企業や団体と一切関わりが無い個人のプロジェクトです。
+    Copyright (c) 2018 ArtifactNoise,LLP/Yuta Kitagami   
