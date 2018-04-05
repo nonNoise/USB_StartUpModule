@@ -350,21 +350,23 @@ UsedLibrary="C:/EAGLE-7.2.0/lbr/zetex.lbr"
 UsedLibrary="C:/EAGLE-7.2.0/lbr/zilog.lbr"
 UsedLibrary="C:/Users/Akizuki/Dropbox/BOX/eagle/AN-Project/MCP2221A/USB-OLED16x2/01.lbr"
 UsedLibrary="01.lbr"
+UsedLibrary="C:/Users/Akizuki/Dropbox/BOX/eagle/AKIZUKI/EAGLE_CAD/北神ライブラリ/AE-FRAME.lbr"
+UsedLibrary="C:/Users/Akizuki/Dropbox/BOX/eagle/AN-FRAME.lbr"
 
 [Win_1]
-Type="Board Editor"
-Loc="496 209 1135 848"
-State=2
-Number=2
-File="01.brd"
-View="2.03887 -3.03483 69.1503 55.9856"
-WireWidths=" 0 0.3048 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.8"
+Type="Library Editor"
+Loc="203 155 802 554"
+State=0
+Number=3
+File="C:/Users/Akizuki/Dropbox/BOX/eagle/AN-FRAME.lbr"
+View="-2.08483 -0.764031 103.685 36.324"
+WireWidths=" 0 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0.4064 0.254 0.127"
 PadDiameters=" 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0 1.6"
 PadDrills=" 0.5 0.6 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.8"
 ViaDiameters=" 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0 1.6"
-ViaDrills=" 0.5 0.7 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6 0.8"
+ViaDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
 HoleDrills=" 0.5 0.7 0.8 0.9 1 1.1 1.2 1.3 1.4 1.5 1.6 2 2.2 2.8 3.2 0.6"
-TextSizes=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778"
+TextSizes=" 0.6096 0.8128 1.016 1.4224 1.6764 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.778 1.27 0.00101563 0.4 0.1"
 PolygonSpacings=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 5.08 6.4516 1.27"
 PolygonIsolates=" 0.254 0.3048 0.4064 0.6096 0.8128 1.016 1.27 1.4224 1.6764 1.778 1.9304 2.1844 2.54 3.81 6.4516 0"
 MiterRadiuss=" 0.254 0.3175 0.635 1.27 2.54 1 2 2.5 5 7.5 10 0"
@@ -377,10 +379,10 @@ WireBend=0
 WireBendSet=0
 WireCap=1
 MiterStyle=0
-PadShape=0
-ViaShape=2
+PadShape=1
+ViaShape=0
 PolygonPour=0
-PolygonRank=1
+PolygonRank=0
 PolygonThermals=1
 PolygonOrphans=0
 TextRatio=8
@@ -395,12 +397,13 @@ SwapLevel=0
 ArcDirection=0
 AddLevel=2
 PadsSameType=0
-Layer=1
+Layer=94
+Symbol="DOCFIELD-1"
 
 [Win_2]
 Type="Control Panel"
-Loc="327 224 1251 863"
-State=2
+Loc="722 235 1646 874"
+State=0
 Number=0
 
 [Desktop]
