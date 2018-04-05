@@ -5,7 +5,7 @@
 作成日:
 
 
-.. image:: AN-USB-BME280.JPG
+.. image:: ./img/resize/AN-USB-BME280.JPG
     :width: 480px
 
 
