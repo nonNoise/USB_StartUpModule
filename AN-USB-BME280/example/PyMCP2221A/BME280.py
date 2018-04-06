@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from PyMCP2221A import SMBus
 import time
 
@@ -66,9 +67,7 @@ class BME280 :
         self.temperature= self.compensate_T(temp_raw)
         self.pressure = self.compensate_P(pres_raw)
         self.var_h = self.compensate_H(hum_raw)
-        
 
-        #不快指数 DI　（Tは乾球気温℃、Hは湿度％）
         self.DI = 0.81*self.temperature + 0.01*self.var_h * (0.99 * self.temperature-14.3)+46.3
  
 
