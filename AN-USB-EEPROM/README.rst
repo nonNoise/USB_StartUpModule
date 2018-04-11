@@ -23,7 +23,17 @@ USBでI2CタイプのEEPROMをリードライトする事が出来ます。
 .. image:: ./img/EEPROM.PNG
     :width: 480px
 
+■ 部品表
+------------------------------------------------------------------------
 
+:MCP2221A [I-13069]: http://akizukidenshi.com/catalog/g/gI-13069/
+:ICソケット(14P) [P-00006]: http://akizukidenshi.com/catalog/g/gP-00006/
+:基板取付用ＵＳＢコネクタ（Ｂタイプ　メス）[C-00161]: http://akizukidenshi.com/catalog/g/gC-00161/
+:LED [I-02754]: http://akizukidenshi.com/catalog/g/gI-02754/
+:ポリスイッチ [P-12911]: http://akizukidenshi.com/catalog/g/gP-12911/
+:抵抗: 10KΩ、470Ω
+:コンデンサ: 0.1uF
+:ゼロプレッシャーＩＣソケット　（１４Ｐ） [P-12073]: http://akizukidenshi.com/catalog/g/gP-12073/
 
 ■ サンプルプログラム
 ------------------------------------------------------------------------
