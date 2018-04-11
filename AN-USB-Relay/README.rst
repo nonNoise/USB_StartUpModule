@@ -36,8 +36,8 @@ USBでリレーと制御することが出来ます。
 :コンデンサ: 0.1uF
 :デジタルトランジスタ [I-12467]: http://akizukidenshi.com/catalog/g/gI-12467/
 :ショットキーダイオード [I-08997]: http://akizukidenshi.com/catalog/g/gI-08997/
-:リレー [P-09148]:  http://akizukidenshi.com/catalog/g/gP-09148/
-:ターミナルブロック[P-01309] : http://akizukidenshi.com/catalog/g/gP-01309/
+:リレー [P-09148]: http://akizukidenshi.com/catalog/g/gP-09148/
+:ターミナルブロック[P-01309]: http://akizukidenshi.com/catalog/g/gP-01309/
 
 
 ■ サンプルプログラム
