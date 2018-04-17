@@ -35,10 +35,41 @@ USBでI2CタイプのEEPROMをリードライトする事が出来ます。
 :コンデンサ: 0.1uF
 :ゼロプレッシャーＩＣソケット　（１４Ｐ） [P-12073]: http://akizukidenshi.com/catalog/g/gP-12073/
 
+■ ライブラリインストール
+------------------------------------------------------------------------
+
+pip install PyMCP2221A
+
+|
+
+|
+
+
 ■ サンプルプログラム
 ------------------------------------------------------------------------
 
-    pip install PyMCP2221A
+コマンドライン
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+    EEPROMのテスト（クリア、ライト、リード）を行います。
+
+    https://github.com/nonNoise/USB_ScienceKit/blob/master/AN-USB-EEPROM/example/MCP2221_EEPROM_WriteReadTest.py
+
+-   初期化
+
+    from PyMCP2221A import PyMCP2221A
+
+    mcp2221 = PyMCP2221A.PyMCP2221A()
+
+    mcp2221.I2C_Init()
+
+-   I2C書込み
+
+    mcp2221.I2C_Write(0x50,data)
+    
+-   I2C読出し
+
+    mcp2221.I2C_Read(0x50,1)
 
 
 

@@ -40,11 +40,52 @@ USBでリレーと制御することが出来ます。
 :ターミナルブロック[P-01309]: http://akizukidenshi.com/catalog/g/gP-01309/
 
 
+
+■ ライブラリインストール
+------------------------------------------------------------------------
+
+pip install PyMCP2221A
+
+|
+
+|
+
+
 ■ サンプルプログラム
 ------------------------------------------------------------------------
 
-    pip install PyMCP2221A
+コマンドライン
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+    https://github.com/nonNoise/USB_ScienceKit/blob/master/AN-USB-OLED-MINI/example/AKI_SPI_AQM1248A.py
+
+-   初期化
+
+    from PyMCP2221A import PyMCP2221A
+
+    gpio = PyMCP2221A.PyMCP2221A()
+
+-   出力モード設定
+
+    gpio.GPIO_0_OutputMode()
+
+    gpio.GPIO_1_OutputMode()
+    
+-   リレー１(GP0)をON
+
+    gpio.GPIO_0_Output(1)
+
+-   リレー１(GP0)をOFF
+
+    gpio.GPIO_0_Output(0)
+
+-   リレー2(GP1)をON
+
+    gpio.GPIO_1_Output(1)
+
+-   リレー2(GP1)をOFF
+
+    gpio.GPIO_1_Output(0)
 
 
 
