@@ -1,12 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.2.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="mm" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -22474,7 +22475,7 @@ DIN A4, landscape with extra doc field</description>
 <sheets>
 <sheet>
 <plain>
-<text x="121.92" y="-66.04" size="5" layer="94">AN-USB-BMX055</text>
+<text x="121.92" y="-66.04" size="5" layer="94">AN-USB-EEPROM</text>
 <text x="121.92" y="-71.12" size="2.5" layer="94">USB science kit</text>
 <text x="121.92" y="-76.2" size="2.5" layer="94">ArtifactNoise,LLP/Yuta Kitagami</text>
 <text x="195.58" y="-76.2" size="2.5" layer="94">1.0</text>

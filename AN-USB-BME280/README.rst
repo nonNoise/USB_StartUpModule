@@ -43,6 +43,31 @@
 
 
 
+-   初期化
+    
+    from PyMCP2221A import BME280
+    
+    device = BME280.BME280()
+
+-   全てのデータ読出し
+
+    device.readData()
+
+-   温度値の関数 [℃]
+
+    device.temperature
+
+-   湿度値の関数 [%]
+
+    device.var_h
+
+-   気圧値の関数　[pa]
+
+    device.pressure
+
+※ヘクトパスカル(hPa)に変換する際は　device.pressure/100 をします。
+
+
 
 ■ 参考資料
 ------------------------------------------------------------------------
