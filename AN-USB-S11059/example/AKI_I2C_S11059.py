@@ -6,14 +6,14 @@
 ############################################################
 
 
-import smbus
+from PyMCP2221A import SMBus
 import time
 from struct import *
 
 class AKI_I2C_S11059:
-    def __init__(self,I2C_PORT):
+    def __init__(self):
         self.I2C_ADDR = 0x2A
-        self.i2c = smbus.SMBus(1)
+        self.i2c = SMBus.SMBus() 
 
     def i2cReg(self,wr,addr,data=0x00):
         if(wr == "w"):

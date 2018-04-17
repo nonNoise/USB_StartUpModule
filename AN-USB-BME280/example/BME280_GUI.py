@@ -11,10 +11,12 @@ buff = StringVar()
 buff.set('')
 
 Label(textvariable = buff).pack()
+from PyMCP2221A import BME280
+device = BME280.BME280()
 
 def show_time():
-    from PyMCP2221A import BME280
-    device = BME280.BME280()
+    #from PyMCP2221A import BME280
+    #device = BME280.BME280()
     device.readData()
     arr = [[0 for i in range(18)] for j in range(20)]
 
@@ -81,10 +83,6 @@ def show_time():
         str = str+"注意"
     else:
         str = str+"ほぼ安全"
-
-
-
-
 
     buff.set(str)
     root.after(500, show_time)
