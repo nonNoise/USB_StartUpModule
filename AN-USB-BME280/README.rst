@@ -39,9 +39,11 @@
 
     pip install PyMCP2221A
 
+
+コマンドライン
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
     https://github.com/nonNoise/USB_ScienceKit/blob/master/BME280/example/BME280_test.py
-
-
 
 -   初期化
     
@@ -66,6 +68,16 @@
     device.pressure
 
 ※ヘクトパスカル(hPa)に変換する際は　device.pressure/100 をします。
+
+GUIアプリ
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+.. image:: ./img/GUI_sample.jpg
+    :width: 480px
+
+
+https://github.com/nonNoise/USB_ScienceKit/blob/master/AN-USB-BME280/example/BME280_GUI.py
 
 
 
