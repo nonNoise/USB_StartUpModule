@@ -39,6 +39,9 @@
 
 pip install PyMCP2221A
 
+|
+
+|
 
 
 ■ サンプルプログラム
