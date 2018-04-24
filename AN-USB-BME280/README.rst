@@ -50,7 +50,7 @@ pip install PyMCP2221A
 コマンドライン
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    https://github.com/nonNoise/USB_ScienceKit/blob/master/BME280/example/BME280_test.py
+    https://github.com/nonNoise/USB_ScienceKit/blob/master/AN-USB-BME280/example/BME280_test.py
 
 -   初期化
     

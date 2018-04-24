@@ -3,7 +3,6 @@ import SSD1309
 import time
 import datetime
 i2cbus = SMBus.SMBus()        # 1 = Raspberry Pi but NOT early REV1 board
-
 oled = SSD1309.ssd1309(i2cbus)   # create oled object, nominating the correct I2C bus, default address
 
 # we are ready to do some output ...
