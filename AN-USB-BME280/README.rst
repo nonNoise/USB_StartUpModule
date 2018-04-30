@@ -70,7 +70,7 @@ pip install PyMCP2221A
 
     device.humidity
 
-    ※ device.var_h　は古い関数で使用しない方向でおねがいします。
+    ※ device.var_h　は古い関数で使用しない方向でおねがいします。 
 
 -   気圧値の関数　[pa]
 
