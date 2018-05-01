@@ -75,7 +75,7 @@ A.I2C通信中にPythonが止まった際に発生します。USBケーブルを
 
 .. raw:: html
 
-	<table border="1" cellspacing="0" cellpadding="1">
+	<table border="0">
 		<tr>
 			<td><img src="./img/20180421_02.jpg"></td>
 			<td><img src="./img/20180421_03.jpg"></td>
