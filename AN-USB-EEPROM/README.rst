@@ -15,6 +15,7 @@ I2C EEPROMリードライタ―　モジュール
 
 USBでI2CタイプのEEPROMをリードライトする事が出来ます。
 
+.. image:: ./img/取説.png
 
 
 ■ 回路図
