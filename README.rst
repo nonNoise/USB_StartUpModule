@@ -21,23 +21,23 @@ USBで始められるモジュールたち
 
 - USBで始める室内環境計測モジュール
 
-	https://github.com/nonNoise/USB_ScienceKit/tree/master/AN-USB-BME280
+	https://github.com/nonNoise/USB_StartUpModule/tree/master/AN-USB-BME280
 
 - USBで始める OLED表示モジュール
 
-	https://github.com/nonNoise/USB_ScienceKit/tree/master/AN-USB-OLED-MINI
+	https://github.com/nonNoise/USB_StartUpModule/tree/master/AN-USB-OLED-MINI
 
 - USBで始めるリレー制御モジュール
 
-	https://github.com/nonNoise/USB_ScienceKit/tree/master/AN-USB-Relay
+	https://github.com/nonNoise/USB_StartUpModule/tree/master/AN-USB-Relay
 
 - USBで始めるカラーセンサーモジュール
 
-	https://github.com/nonNoise/USB_ScienceKit/tree/master/AN-USB-S11059
+	https://github.com/nonNoise/USB_StartUpModule/tree/master/AN-USB-S11059
 
 - USBで始めるI2C EEPROMライタ―　モジュール
 
-	https://github.com/nonNoise/USB_ScienceKit/tree/master/AN-USB-EEPROM
+	https://github.com/nonNoise/USB_StartUpModule/tree/master/AN-USB-EEPROM
 
 Pythonのセットアップについて
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^

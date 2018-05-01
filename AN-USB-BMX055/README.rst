@@ -41,7 +41,7 @@ pip install PyMCP2221A
 
     ９軸のデータを取得しましす。
 
-    https://github.com/nonNoise/USB_ScienceKit/blob/master/AN-USB-BMX055/example/BMX055_test.py
+    https://github.com/nonNoise/USB_StartUpModule/blob/master/AN-USB-BMX055/example/BMX055_test.py
 
 -   初期化
 

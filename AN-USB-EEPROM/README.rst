@@ -48,7 +48,7 @@ pip install PyMCP2221A
 
     EEPROMのテスト（クリア、ライト、リード）を行います。
 
-    https://github.com/nonNoise/USB_ScienceKit/blob/master/AN-USB-EEPROM/example/MCP2221_EEPROM_WriteReadTest.py
+    https://github.com/nonNoise/USB_StartUpModule/blob/master/AN-USB-EEPROM/example/MCP2221_EEPROM_WriteReadTest.py
 
 -   初期化
 

@@ -49,7 +49,7 @@ pip install Pillow
 コマンドライン
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    https://github.com/nonNoise/USB_ScienceKit/blob/master/AN-USB-OLED-MINI/example/AKI_SPI_AQM1248A.py
+    https://github.com/nonNoise/USB_StartUpModule/blob/master/AN-USB-OLED-MINI/example/AKI_SPI_AQM1248A.py
 
 -   初期化
     
