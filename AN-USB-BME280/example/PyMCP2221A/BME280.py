@@ -66,6 +66,7 @@ class BME280 :
         
         self.temperature= self.compensate_T(temp_raw)
         self.pressure = self.compensate_P(pres_raw)
+        self.humidity = self.compensate_H(hum_raw)
         self.var_h = self.compensate_H(hum_raw)
 
         self.DI = 0.81*self.temperature + 0.01*self.var_h * (0.99 * self.temperature-14.3)+46.3
