@@ -34,8 +34,11 @@ USBで物体の色を計測することが出来ます。
 ■ サンプルプログラム
 ------------------------------------------------------------------------
 
-    pip install PyMCP2221A
+git clone https://github.com/nonNoise/USB_StartUpModule.git
 
+pip install PyMCP2221A
+
+cd ./USB_StartUpModule/AN-USB-S11059/example
 
 
 

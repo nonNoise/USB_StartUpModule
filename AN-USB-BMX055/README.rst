@@ -26,12 +26,13 @@ USBで９軸加速度を検出する事が出来ます。
 ■ ライブラリインストール
 ------------------------------------------------------------------------
 
+git clone https://github.com/nonNoise/USB_StartUpModule.git
+
 pip install PyMCP2221A
 
-|
+cd ./USB_StartUpModule/AN-USB-BMX055/example
 
-|
-
+python3  BMX055_test.py
 
 ■ サンプルプログラム
 ------------------------------------------------------------------------

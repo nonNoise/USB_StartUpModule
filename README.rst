@@ -90,3 +90,10 @@ A.I2C通信中にPythonが止まった際に発生します。USBケーブルを
 			<td><img src="./img/20180421_01.jpg"></td>
 		</tr>
 	</table>
+
+
+企画・開発
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+ArtifactNoise,LLP https://artifactnoise.com/
+
+.. image:: ./img/logo-mini-320-132-g-t.png

@@ -34,13 +34,15 @@ USBで０．９６インチのＯＬＥＤに文字や図を表示が出来ま�
 ■ ライブラリインストール
 ------------------------------------------------------------------------
 
+git clone https://github.com/nonNoise/USB_StartUpModule.git
+
 pip install PyMCP2221A
 
 pip install Pillow
 
-|
+cd ./USB_StartUpModule/AN-USB-OLED-MINI/example
 
-|
+
 
 
 ■ サンプルプログラム

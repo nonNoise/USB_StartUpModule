@@ -33,11 +33,12 @@ USBでI2CタイプのEEPROMをリードライトする事が出来ます。
 ■ ライブラリインストール
 ------------------------------------------------------------------------
 
+git clone https://github.com/nonNoise/USB_StartUpModule.git
+
 pip install PyMCP2221A
 
-|
+cd ./USB_StartUpModule/AN-USB-EEPROM/example
 
-|
 
 
 ■ サンプルプログラム
