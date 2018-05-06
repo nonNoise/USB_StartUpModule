@@ -2,18 +2,14 @@
 ０．９６インチ OLED表示モジュール
 ========================================================================
 
-作成日:　準備中
-
-
-.. image:: ./img/resize/AN-USB-S11059.jpg
-    :width: 480px
-
-
+作成日:2018/05/01
 
 ■ 概要
 ------------------------------------------------------------------------
 
 USBで０．９６インチのＯＬＥＤに文字や図を表示が出来ます。
+
+.. image:: ./img/取説.png
 
 ■ 回路図
 ------------------------------------------------------------------------
@@ -53,7 +49,7 @@ pip install Pillow
 コマンドライン
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    https://github.com/nonNoise/USB_ScienceKit/blob/master/AN-USB-OLED-MINI/example/AKI_SPI_AQM1248A.py
+    https://github.com/nonNoise/USB_StartUpModule/blob/master/AN-USB-OLED-MINI/example/AKI_SPI_AQM1248A.py
 
 -   初期化
     

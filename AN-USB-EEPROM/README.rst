@@ -2,19 +2,14 @@
 I2C EEPROMリードライタ―　モジュール
 ========================================================================
 
-作成日:
-
-
-.. image:: ./img/resize/AN-USB-EEPROM.jpg
-    :width: 480px
-
-
+作成日:2018/05/01
 
 ■ 概要
 ------------------------------------------------------------------------
 
 USBでI2CタイプのEEPROMをリードライトする事が出来ます。
 
+.. image:: ./img/取説.png
 
 
 ■ 回路図
@@ -53,7 +48,7 @@ pip install PyMCP2221A
 
     EEPROMのテスト（クリア、ライト、リード）を行います。
 
-    https://github.com/nonNoise/USB_ScienceKit/blob/master/AN-USB-EEPROM/example/MCP2221_EEPROM_WriteReadTest.py
+    https://github.com/nonNoise/USB_StartUpModule/blob/master/AN-USB-EEPROM/example/MCP2221_EEPROM_WriteReadTest.py
 
 -   初期化
 

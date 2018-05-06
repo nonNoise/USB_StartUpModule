@@ -2,20 +2,14 @@
 リレー制御モジュール
 ========================================================================
 
-作成日:
-
-
-.. image:: ./img/resize/AN-USB-Relay.jpg
-    :width: 480px
-
-
+作成日:2018/05/01
 
 ■ 概要
 ------------------------------------------------------------------------
 
 USBでリレーと制御することが出来ます。
 
-
+.. image:: ./img/取説.png
 
 
 ■ 回路図
@@ -57,7 +51,7 @@ pip install PyMCP2221A
 コマンドライン
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-    https://github.com/nonNoise/USB_ScienceKit/blob/master/AN-USB-OLED-MINI/example/AKI_SPI_AQM1248A.py
+    https://github.com/nonNoise/USB_StartUpModule/blob/master/AN-USB-OLED-MINI/example/AKI_SPI_AQM1248A.py
 
 -   初期化
 
